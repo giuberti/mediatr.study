@@ -1,0 +1,30 @@
+﻿@page "/addPerson"
+@inject MediatR.IMediator _mediator
+
+<PageTitle>Add Person</PageTitle>
+
+<h1>Add Person</h1>
+
+<p role="status">Count of people: @currentCount</p>
+<p>
+<input type="text" @bind="firstName" /> <input type="text" @bind="lastName"/>
+</p>
+<button class="btn btn-primary" @onclick="AddNewPerson">Add me</button>
+
+@code {
+    private int currentCount = 0;
+    private string firstName = "", lastName = "";
+
+    private async Task AddNewPerson()
+    {
+        var person = new InsertPersonCommand(firstName, lastName);
+        PersonModel  personAdded = await _mediator.Send(person);
+        await RefreshPeople();
+    }
+
+    private async Task RefreshPeople()
+    {
+        List<PersonModel> people = await _mediator.Send(new GetPersonListQuery());
+        currentCount = people.Count;
+    }
+}

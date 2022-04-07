@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorUI", "BlazorUI\BlazorUI.csproj", "{7B30C7EB-F70C-47E6-B47D-5376EABB7A00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{E9A94FF3-6B49-4304-933B-77BE042BE3AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoAPI", "DemoAPI\DemoAPI.csproj", "{B5D49E88-2E91-42BC-8466-4071E65DF142}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B30C7EB-F70C-47E6-B47D-5376EABB7A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B30C7EB-F70C-47E6-B47D-5376EABB7A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B30C7EB-F70C-47E6-B47D-5376EABB7A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B30C7EB-F70C-47E6-B47D-5376EABB7A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A94FF3-6B49-4304-933B-77BE042BE3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A94FF3-6B49-4304-933B-77BE042BE3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A94FF3-6B49-4304-933B-77BE042BE3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A94FF3-6B49-4304-933B-77BE042BE3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D49E88-2E91-42BC-8466-4071E65DF142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D49E88-2E91-42BC-8466-4071E65DF142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D49E88-2E91-42BC-8466-4071E65DF142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D49E88-2E91-42BC-8466-4071E65DF142}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E047AFB-AE75-47E2-BF1B-B65BF1EE1CD5}
+	EndGlobalSection
+EndGlobal
